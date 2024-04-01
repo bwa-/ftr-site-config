@@ -17,6 +17,7 @@ strip: //footer
 strip: //form
 strip: //div[starts-with(@id, "qanda-")]
 
+strip: //figure[contains(@data-spacefinder-type, "NewsletterSignup")]
 strip: //figure[@data-atom-type="qanda" or @data-atom-type="profile"]
 
 #2021
@@ -34,7 +35,7 @@ strip_id_or_class: youtube-media-atom__overlay
 
 strip: //figcaption
 strip: //svg
-
+strip: //gu-island
 
 title: //h1[@articleprop='headline']
 author: //a[@rel='author']
